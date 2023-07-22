@@ -1,0 +1,7 @@
+*.debug
+*.release
+combine*
+build-*/
+outputs/
+*.inp
+*.cpp
