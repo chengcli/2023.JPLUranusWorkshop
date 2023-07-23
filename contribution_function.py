@@ -41,11 +41,6 @@ def plot_contribution_function(ax, case, ang = None):
   ax.plot(wfunc6, pres, 'k--', color = '0.7')
   #ax.legend(fancybox=True, framealpha=0.5)
 
-  ax.set_ylim([20., 0.5])
-  ax.set_yscale('log')
-  ax.set_xlabel('contribution function', fontsize = 12)
-  ax.set_ylabel('Pressure (bar)', fontsize = 12)
-
 if __name__ == '__main__':
   case = 'saturn_vla_inversion--9.8'
   #case = '../build_disk/saturn_vla-disk-1.6'

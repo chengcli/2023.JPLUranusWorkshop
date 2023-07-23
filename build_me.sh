@@ -1,4 +1,4 @@
 #! /bin/bash
 
-mkdir -p build-uranus
-cd build-uranus && make -j4
+mkdir -p build-NH4SH
+cd build-NH4SH && make -j4
